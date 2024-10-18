@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0B1D; /* Dark background */
+    color: #FFFFFF; /* Light text */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1C1E32; /* Darker navbar */
+}
+
+nav .logo h2 {
+    margin: 0;
+    color: #00BFFF; /* Light blue */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+}
+
+.about-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-section h1 {
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #1C1E32; /* Card background */
+    border-radius: 10px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.team-member:hover {
+    transform: scale(1.05); /* Card hover effect */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1C1E32; /* Footer background */
+    color: #FFFFFF; /* White text */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    gap: 15px;
+}
